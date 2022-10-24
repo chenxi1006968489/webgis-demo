@@ -16,6 +16,8 @@ import position from "@/components/Position";
 //拖拽选点
 import drag from "@/components/Drag";
 
+import dialogMap from "@/components/dialogMap";
+
 Vue.use(Router);
 
 export default new Router({
@@ -59,6 +61,11 @@ export default new Router({
       path: "/searchByPois",
       name: "searchByPois",
       component: searchByPois
+    },
+    {
+      path: "/dialogMapContainer",
+      name: "dialogMapContainer",
+      component: dialogMap
     }
   ]
 });

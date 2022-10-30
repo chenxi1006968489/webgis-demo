@@ -4,16 +4,18 @@
     <router-link to="/">主页</router-link> |
     <router-link to="/nativeSdk">原生&UI</router-link> |
     <router-link to="/position">定位</router-link> |
-    <hr>
+    <hr />
     <router-link to="/search">搜索(vue-amap)</router-link> |
     <router-link to="/searchBySdk">search sdk</router-link> |
     <router-link to="/searchBypois">输入提示+搜索服务</router-link> |
-    <hr>
+    <hr />
     <router-link to="/drag">拖拽选点</router-link> |
     <router-link to="/ui">其他</router-link>
-    <hr>
+    <hr />
     <router-link to="/dialogMapContainer">地图弹窗</router-link>
-    <router-view/>
+    <hr />
+    <router-link to="/geoJson">geoJson图层</router-link>
+    <router-view />
   </div>
 </template>
 

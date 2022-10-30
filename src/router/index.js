@@ -18,6 +18,8 @@ import drag from "@/components/Drag";
 
 import dialogMap from "@/components/dialogMap";
 
+import geoJson from "@/components/geoJson";
+
 Vue.use(Router);
 
 export default new Router({
@@ -66,6 +68,11 @@ export default new Router({
       path: "/dialogMapContainer",
       name: "dialogMapContainer",
       component: dialogMap
+    },
+    {
+      path: "/geoJson",
+      name: "geoJson",
+      component: geoJson
     }
   ]
 });
